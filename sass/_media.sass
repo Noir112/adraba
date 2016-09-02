@@ -1,0 +1,65 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  .menu li
+    padding: 33px 14px 0
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .btn-x
+    display: block
+  header .logo
+    width: 100%
+    text-align: center
+  .menu
+    background: #fff
+    margin: 0
+    position: fixed
+    top: 84px
+    left: 0
+    width: 100%
+    padding: 0 40px
+    top: -100%
+    transition: all 1s
+    &.open
+      top: 84px
+    li
+      width: 100%
+      padding: 0
+      text-align: center
+      a
+        line-height: 84px
+        text-align: center
+  .section-home-slider .slid .home-h1
+    font-size: 33px
+  .section-adraba .border-arderba
+    border: none
+    border-top: 1px solid #009edb
+  .owl-pagination
+    left: 10px
+  footer .border
+    padding: 73px 18px 60px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .section-home-slider .slid .home-h1
+    font-size: 23px
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+
