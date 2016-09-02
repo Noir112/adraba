@@ -10,6 +10,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+  .pl43
+    padding-left: 0
   .btn-x
     display: block
   header .logo
@@ -25,6 +27,7 @@
     padding: 0 40px
     top: -100%
     transition: all 1s
+    z-index: -1
     &.open
       top: 84px
     li
@@ -36,6 +39,7 @@
         text-align: center
   .section-home-slider .slid .home-h1
     font-size: 33px
+    line-height: 34px
   .section-adraba .border-arderba
     border: none
     border-top: 1px solid #009edb
@@ -48,9 +52,15 @@
 @media only screen and (max-width : 768px)
   .section-home-slider .slid .home-h1
     font-size: 23px
-
-
-
+  .section-home-slider .slid
+    padding: 142px 0 0 0
+  footer .border .ninja
+    margin-left: -112px
+    padding: 0 20px
+    font-size: 13px
+  footer .border .ninja-wrapper
+    padding: 0 15px
+    margin-left: -133px
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
